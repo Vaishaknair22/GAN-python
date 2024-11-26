@@ -11,23 +11,23 @@ This project documents my first implementation of a Generative Adversarial Netwo
 Below is the progression of the GAN learning to generate points following the quadratic function:
 
 #### Initial Stage (Iteration 0)
-![Initial Stage](gan_plots_20241125_222358/gan_plot_iteration_0.png)
+![Initial Stage](gan_plots_20241125_224626/gan_plot_iteration_0.png)
 *At the start, the generator produces random points with no clear pattern.*
 
 #### Early Progress (Iteration 10000)
-![Early Progress](gan_plots_20241125_222358/gan_plot_iteration_10000.png)
+![Early Progress](gan_plots_20241125_224626/gan_plot_iteration_10000.png)
 *The generator begins to understand the general shape of the quadratic function.*
 
 #### Mid Training (Iteration 20000)
-![Mid Training](gan_plots_20241125_222358/gan_plot_iteration_20000.png)
+![Mid Training](gan_plots_20241125_224626/gan_plot_iteration_20000.png)
 *The distribution starts to align more closely with the true quadratic function.*
 
 #### Final Result (Iteration 50000)
-![Final Result](gan_plots_20241125_222358/gan_plot_iteration_50000.png)
+![Final Result](gan_plots_20241125_224626/gan_plot_iteration_50000.png)
 *The generator successfully produces points following the quadratic pattern.*
 
 ### Training Loss
-![Loss History](gan_plots_20241125_222358/loss_history.png)
+![Loss History](gan_plots_20241125_224626/loss_history.png)
 *The graph shows the convergence of generator and discriminator losses over time.*
 
 ## Technical Implementation

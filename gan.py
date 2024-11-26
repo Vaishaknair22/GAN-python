@@ -185,8 +185,8 @@ generator.save(os.path.join(model_dir, 'generator.keras'))
 discriminator.save(os.path.join(model_dir, 'discriminator.keras'))
 
 
-generator.save_weights(os.path.join(model_dir, 'generator_weights.keras'))
-discriminator.save_weights(os.path.join(model_dir, 'discriminator_weights.keras'))
+generator.save_weights(os.path.join(model_dir, 'generator.weights.h5'))
+discriminator.save_weights(os.path.join(model_dir, 'discriminator.weights.h5'))
 
 
 print(f"\nTraining completed. All results saved in directory: {plot_dir}")
